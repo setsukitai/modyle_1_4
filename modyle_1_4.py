@@ -1,0 +1,7 @@
+my_string = input("произвольный текст: ")
+print("кол-во символов:", len(my_string))
+print("верх.рег.:", my_string.upper())
+print("ниж.рег.:", my_string.lower())
+print("без пробелов:", my_string.replace(' ',''))
+print("первый символ:", my_string[0])
+print("последний символ:", my_string[-1])
